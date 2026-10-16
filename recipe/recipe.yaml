@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: minilog
-  version: 2.3.1
+  version: "2.4"
   python_min: 3.8
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/minilog-${{ version }}.tar.gz
-  sha256: 4b602572c3bcdd2d8f00d879f635c0de9e632d5d0307e131c91074be8acf444e
+  sha256: c2e8508f90a47757fff7e60a0ebfcb3e92bfbac9298f2a2fd890a75b3b502d3e
 
 build:
   number: 0
